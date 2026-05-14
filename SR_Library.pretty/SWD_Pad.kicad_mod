@@ -1,0 +1,116 @@
+(footprint "SWD_Pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "35802752-d5e8-4d00-a81f-68b2a9bd4d51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SWD_Pad"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e3c6b34d-34ec-46b9-b9fb-1d3c74dadd82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39959c58-b044-4742-9825-49fefaff7970")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abf33dea-4564-4c70-94fe-54160ad2c8af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.6 -0.8)
+		(end 3.6 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "64189bfd-cb69-4301-9c33-670e1fccf0c8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e9ad7072-8864-4d33-a06f-0390dc409976")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at 2.8 0)
+		(size 1.2 1.2)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1b95828c-b8b9-47e4-8245-48e1b2be24db")
+	)
+	(pad "2" smd oval
+		(at 1.4 0)
+		(size 1.2 1.2)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6c35ba0e-842b-4115-9700-f1fce33b4483")
+	)
+	(pad "3" smd oval
+		(at 0 0)
+		(size 1.2 1.2)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4e70eec5-a18e-493f-a85a-ffe6e5851cd1")
+	)
+	(pad "4" smd oval
+		(at -1.4 0)
+		(size 1.2 1.2)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "259f642a-1be0-49d9-b3b7-96e5b2e923f7")
+	)
+	(pad "5" smd oval
+		(at -2.8 0)
+		(size 1.2 1.2)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "0762ad73-51e0-4585-9aac-5d6d29b0ce8a")
+	)
+	(embedded_fonts no)
+)

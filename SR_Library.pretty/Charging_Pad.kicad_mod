@@ -1,0 +1,84 @@
+(footprint "Charging_Pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "177a8ea6-c4c4-460c-88bd-994bd595881a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conn 1x2"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa708d43-fcc4-4bc2-be5c-78cd83e309d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63010bc3-7bf8-4d79-9cbd-0c0f3cb74ce4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33aec22b-674a-4c3b-8521-a1c045cbf276")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7742620e-6759-4af6-8fa1-c25d89411bd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at 0 0)
+		(size 1.2 1.2)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "fe8f76c7-ecb3-4d7f-b0e5-e7a6ec1d61ff")
+	)
+	(pad "2" smd oval
+		(at 0 1.4)
+		(size 1.2 1.2)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Mask")
+		(uuid "deeb35f7-02c9-48c8-a84d-d6b6a67b62c7")
+	)
+	(embedded_fonts no)
+)
