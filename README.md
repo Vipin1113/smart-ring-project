@@ -180,19 +180,19 @@ smart-ring-project/
 
 ## Root Schematic
 
-![Root Schematic](root_schematic.png)
+![Root Schematic](Images/root_schematic.png)
 
 ## PCB Layout and Routing
 
-![PCB Layout](routing_layout.png)
+![PCB Layout](Images/routing_layout.png)
 
 ## 3D PCB Top View
 
-![3D PCB Top](pcb_3d_view_top.png)
+![3D PCB Top](Images/pcb_3d_view_top.png)
 
 ## 3D PCB Bottom View
 
-![3D PCB Bottom](pcb_3d_view_bottom.png)
+![3D PCB Bottom](Images/pcb_3d_view_bottom.png)
 
 ---
 
