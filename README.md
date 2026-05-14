@@ -184,7 +184,7 @@ smart-ring-project/
 
 ## PCB Layout and Routing
 
-(Add image here)
+![PCB Layout](routing_layout.png)
 
 ## 3D PCB Top View
 
