@@ -188,11 +188,11 @@ smart-ring-project/
 
 ## 3D PCB Top View
 
-(Add image here)
+![3D PCB Top](pcb_3d_view_top.png)
 
 ## 3D PCB Bottom View
 
-(Add image here)
+![3D PCB Bottom](pcb_3d_view_bottom.png)
 
 ---
 
