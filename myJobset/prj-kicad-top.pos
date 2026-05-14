@@ -1,0 +1,20 @@
+### Footprint positions - created on 2026-05-14T04:55:41+0530 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                           PosX       PosY       Rot  Side
+C2        1u                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   113.5675   -51.0000  180.0000  top
+C9        0.8p                 C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   127.4000   -56.4325   90.0000  top
+C12       12p                  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   123.0000   -52.0325   90.0000  top
+C13       12p                  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   118.6000   -52.0325  -90.0000  top
+J3        Conn_01x02           Charging_Pad                                  111.4000   -51.2000  -90.0000  top
+J4        Conn_01x05           SWD_Pad                                       124.4000   -56.4000  -90.0000  top
+L1        3.9n                 L_0402_1005Metric_Pad0.77x0.64mm_HandSolder   128.4000   -56.4275   90.0000  top
+R1        40K                  R_0402_1005Metric_Pad0.72x0.64mm_HandSolder   110.0000   -53.2025   90.0000  top
+R4        10K                  R_0402_1005Metric_Pad0.72x0.64mm_HandSolder   112.9975   -55.6000    0.0000  top
+U1        MCP73831-2-OT        SOT-23-5                                      113.0625   -53.3500  180.0000  top
+U2        NRF52810-QCAA-T      QFN32_5X5_NOR                                 120.2257   -56.3743    0.0000  top
+U4        TPS78233DDC          SOT-23-5                                      113.0625   -57.9500  180.0000  top
+U6        2450AT18A100E        2450AT18A100E_JOT                             130.4000   -54.3238   90.0000  top
+Y2        ECS-320-8-37-CKM-TR  XTAL_ECS-320-8-37-CKM-TR                      120.4750   -51.8750  180.0000  top
+## End

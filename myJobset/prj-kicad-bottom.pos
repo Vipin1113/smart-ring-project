@@ -1,0 +1,28 @@
+### Footprint positions - created on 2026-05-14T04:55:41+0530 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val          Package                                           PosX       PosY       Rot  Side
+C1        1u           C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   110.4325   -52.2000    0.0000  bottom
+C3        1u           C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   112.9675   -57.6000    0.0000  bottom
+C4        4.7u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   110.8000   -57.2325  -90.0000  bottom
+C5        0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   119.0000   -51.6325   90.0000  bottom
+C6        0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   124.0000   -51.6325  -90.0000  bottom
+C7        0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   120.7675   -58.2000    0.0000  bottom
+C8        4.7u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   122.4325   -59.2000  180.0000  bottom
+C10       0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   122.0000   -51.6325  -90.0000  bottom
+C11       0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   123.0000   -51.5675  -90.0000  bottom
+C14       0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   117.6000   -51.6325  -90.0000  bottom
+C15       1u           C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   124.6000   -58.6325   90.0000  bottom
+C16       0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   120.1675   -59.2000    0.0000  bottom
+C17       4.7u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   120.0000   -51.6325  -90.0000  bottom
+C18       0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   121.0000   -51.6325  -90.0000  bottom
+C19       0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   112.8000   -51.1675  180.0000  bottom
+C21       1u           C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   112.8000   -52.1675  180.0000  bottom
+C22       0.1u         C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   112.9675   -56.6000  180.0000  bottom
+R6        4.7K         R_0402_1005Metric_Pad0.72x0.64mm_HandSolder   118.2025   -53.4000    0.0000  bottom
+R7        4.7K         R_0402_1005Metric_Pad0.72x0.64mm_HandSolder   120.5975   -53.4000  180.0000  bottom
+R8        10K          R_0402_1005Metric_Pad0.72x0.64mm_HandSolder   118.4025   -58.2000    0.0000  bottom
+U3        ICM-42670-P  LGA14_2.5X3X0.76_IVS                          112.0065   -54.4175  180.0000  bottom
+U5        MAX30102     Maxim_OLGA-14_3.3x5.6mm_P0.8mm                120.4000   -55.8000  -90.0000  bottom
+## End
