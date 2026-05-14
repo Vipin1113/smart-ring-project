@@ -1,0 +1,1277 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6b1e889d-c53f-4448-98d0-9aafa1921a76")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 148.59 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c1f13d6-28ed-4a25-931b-996c225162e7")
+	)
+	(junction
+		(at 119.38 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfafa002-e36e-48e0-836b-c5018d543797")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02d4b831-7413-4249-a6f3-a595e448f33e")
+	)
+	(wire
+		(pts
+			(xy 180.34 49.53) (xy 184.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031a514e-6ab2-41f5-ac29-af0b980ed935")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 179.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039245bb-4f54-48e7-bb5f-acfd26cc20d5")
+	)
+	(bus
+		(pts
+			(xy 148.59 77.47) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182526e5-13fb-42ed-ae73-68ae4f77fabf")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 119.38 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a26dc8b-9939-4788-a749-4372d66fad48")
+	)
+	(wire
+		(pts
+			(xy 109.22 49.53) (xy 109.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8e1d71-0063-4f83-bd04-c897f075048b")
+	)
+	(wire
+		(pts
+			(xy 179.07 114.3) (xy 170.18 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240081d1-85bb-4a68-b988-cc8c0c7a7526")
+	)
+	(wire
+		(pts
+			(xy 171.45 49.53) (xy 168.91 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278d3e95-64bd-49c9-afdc-5c1adf8146e3")
+	)
+	(wire
+		(pts
+			(xy 173.99 116.84) (xy 173.99 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2f91ba-39f5-432f-aa5c-3e29dc642802")
+	)
+	(bus
+		(pts
+			(xy 111.76 77.47) (xy 148.59 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b6b93b-5025-42dc-b12b-49ef0e5be42e")
+	)
+	(wire
+		(pts
+			(xy 115.57 116.84) (xy 127 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccb9a8d-a9c5-4289-ba6f-5daca746ce1a")
+	)
+	(wire
+		(pts
+			(xy 180.34 49.53) (xy 180.34 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400189b1-aef4-48d2-8ba6-6051a65646d7")
+	)
+	(wire
+		(pts
+			(xy 125.73 49.53) (xy 119.38 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489d21e5-fcd1-4331-b0a7-a483387d80a7")
+	)
+	(wire
+		(pts
+			(xy 171.45 54.61) (xy 171.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57903b32-4ab0-405d-a4dd-00b68dbcb333")
+	)
+	(wire
+		(pts
+			(xy 182.88 82.55) (xy 182.88 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68751d92-8fbc-491d-a542-67b7d6756c4f")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 111.76 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b990e6-97e2-4eef-b7c2-865a22f2e888")
+	)
+	(wire
+		(pts
+			(xy 119.38 49.53) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a2d32f-4b2e-4fdc-ac03-5ac8d822d11d")
+	)
+	(wire
+		(pts
+			(xy 119.38 114.3) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95546f98-734e-4d68-ba11-d8f5ec8f3f3a")
+	)
+	(wire
+		(pts
+			(xy 111.76 80.01) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9610a048-d49b-4f07-8e40-eae343130458")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 115.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9caa20ce-c3af-4344-9937-db8878c5fa8e")
+	)
+	(wire
+		(pts
+			(xy 113.03 82.55) (xy 113.03 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d074405-35a1-49bb-9385-c06bb84eb0bc")
+	)
+	(wire
+		(pts
+			(xy 105.41 44.45) (xy 125.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b0d8ec-e689-452a-a5ad-7518e42a41b4")
+	)
+	(wire
+		(pts
+			(xy 179.07 80.01) (xy 179.07 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb001173-0e34-496a-9b22-de2a42f1eeec")
+	)
+	(wire
+		(pts
+			(xy 184.15 82.55) (xy 182.88 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3cfa526-adea-44ef-94b6-be90f9adff52")
+	)
+	(wire
+		(pts
+			(xy 170.18 116.84) (xy 173.99 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79144c8-f933-494b-9559-7f775c54685a")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 109.22 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6a45f33-49e1-48e1-a7e4-8bd93644c712")
+	)
+	(wire
+		(pts
+			(xy 168.91 44.45) (xy 184.15 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f191ed86-e674-48c1-a950-95fab7b61537")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 184.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25eb49e-d820-4df3-a652-fa19863434fd")
+	)
+	(bus
+		(pts
+			(xy 148.59 77.47) (xy 184.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf28c47-7cf5-4644-aebd-e2c4cad7ef04")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "155e5c2e-7360-456c-8211-bdcd5bdb0f65")
+		(property "Reference" "#PWR05"
+			(at 109.22 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4590643c-03a4-4b8d-9a97-5b434b70f1ee")
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49a95efb-50cd-4e55-b372-95f6f0d1839b")
+		(property "Reference" "#PWR04"
+			(at 173.99 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b75a2cef-0246-473d-a2b6-f1aba072117c")
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8502f664-dd26-4124-89b4-da03e873ad4b")
+		(property "Reference" "#PWR08"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8e743de-7e1b-495a-a8a4-b5ff995847e1")
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e965037-bb09-4c89-9f98-7514a29970a4")
+		(property "Reference" "#PWR03"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4df82f92-e343-4d32-afac-26b734a9a7ac")
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 171.45 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f3b7d0-8ea7-4d7e-b689-7264aaa1d35e")
+		(property "Reference" "#PWR01"
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83485277-8e27-4a9c-9161-bb56ca6df055")
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7a6683d-e63b-46b4-a327-64e6445f85cd")
+		(property "Reference" "#PWR02"
+			(at 113.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78b457d3-9c74-4848-81d6-96e4e5013331")
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 71.12)
+		(size 43.18 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "14a19280-895b-4e9d-938d-df0e89ef7a97")
+		(property "Sheetname" "IMU"
+			(at 68.58 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 68.58 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3p3V" bidirectional
+			(at 111.76 73.66 0)
+			(uuid "f4073a95-5c7d-40b9-9384-50670e5cf7f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 111.76 82.55 0)
+			(uuid "7dfb1f60-95e6-467e-8abc-111927af9550")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C{SDA SCL}" bidirectional
+			(at 111.76 77.47 0)
+			(uuid "9ca917a2-c578-4802-9cfd-6468cd927c31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT" bidirectional
+			(at 111.76 80.01 0)
+			(uuid "54b961dd-1135-4948-98c5-6c4bccd1551a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 41.91)
+		(size 33.02 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "364f5b01-8030-4196-af9a-c903c06ae900")
+		(property "Sheetname" "bat-conn"
+			(at 184.15 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bat-conn-ckt.kicad_sch"
+			(at 184.15 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BatP" bidirectional
+			(at 184.15 44.45 180)
+			(uuid "5df7b9ea-49e1-41e2-90e0-9c97db4bc7d1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 184.15 49.53 180)
+			(uuid "b07af005-e21e-4e85-917d-b118c4dc460c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 109.22)
+		(size 43.18 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e7bbf33-4102-4907-85f9-3ab7c8f1bea0")
+		(property "Sheetname" "MCU"
+			(at 127 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 127 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3p3V" bidirectional
+			(at 127 114.3 180)
+			(uuid "4ee5f058-843e-4632-b23b-46625ea92277")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 170.18 116.84 0)
+			(uuid "dc6006f8-92c7-4aed-94f5-1f34123288d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C{SDA SCL}" bidirectional
+			(at 148.59 109.22 90)
+			(uuid "ac0a19f8-6c82-4a80-a583-2179b3c1ec76")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IMU_INT" bidirectional
+			(at 127 116.84 180)
+			(uuid "63d6eaa4-a331-4d4c-baed-05c9ae09d674")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PPG_INT" bidirectional
+			(at 170.18 114.3 0)
+			(uuid "2120882c-ab5f-409b-a571-2bf7f456943c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 41.91)
+		(size 33.02 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb49c4c3-a799-4c45-8229-08308faab2b9")
+		(property "Sheetname" "Charging-Pad-conn"
+			(at 72.39 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Charging-Pad-ckt.kicad_sch"
+			(at 72.39 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 105.41 49.53 0)
+			(uuid "e5c02e16-acde-4216-a106-230e16a0b76b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CRG_5V" bidirectional
+			(at 105.41 44.45 0)
+			(uuid "1dc683d5-371d-4d9d-beaf-3b60f9b1af4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 71.12)
+		(size 43.18 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d66191d3-c4f2-4d7b-a463-4687068f1243")
+		(property "Sheetname" "PPG"
+			(at 184.15 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ppg.kicad_sch"
+			(at 184.15 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3p3V" bidirectional
+			(at 184.15 73.66 180)
+			(uuid "d43955b5-c497-4046-a855-2e49dc0abb11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 184.15 82.55 180)
+			(uuid "c43d3ed5-dcc0-4f79-ab62-028be1aa6a2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C{SDA SCL}" bidirectional
+			(at 184.15 77.47 180)
+			(uuid "cc19683e-3f8e-4175-8af3-8c428efe3420")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PPG_INT" bidirectional
+			(at 184.15 80.01 180)
+			(uuid "0315bee9-d58e-4b3c-8db0-e5fe53f6e2fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 40.64)
+		(size 43.18 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd396b3c-f02d-4bc0-8d60-44587e0fa036")
+		(property "Sheetname" "pm"
+			(at 125.73 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pm.kicad_sch"
+			(at 125.73 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CRG_5V" bidirectional
+			(at 125.73 44.45 180)
+			(uuid "e6c1edbb-d279-44a0-ab57-0d77999e1253")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3p3V" bidirectional
+			(at 168.91 44.45 0)
+			(uuid "3808b1e4-5346-4d7f-98be-e09e955eb31b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BatP" bidirectional
+			(at 125.73 49.53 180)
+			(uuid "aadae891-2d9f-4342-a877-0c881433537d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" bidirectional
+			(at 168.91 49.53 0)
+			(uuid "b714c16a-2792-4efd-ad40-9e938778e399")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "prj-kicad"
+				(path "/6b1e889d-c53f-4448-98d0-9aafa1921a76"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
