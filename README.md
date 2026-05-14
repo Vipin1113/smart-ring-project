@@ -180,7 +180,7 @@ smart-ring-project/
 
 ## Root Schematic
 
-(Add image here)
+![Root Schematic](root_schematic.png)
 
 ## PCB Layout and Routing
 
